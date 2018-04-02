@@ -1,0 +1,58 @@
+.transparent {
+    padding: 8px 10px;
+    background: #f0f0f0;
+    color: #bbb;
+    font-size: 0.8rem;
+}
+ .left-border-none {
+    border:none !important;
+    background: #f0f0f0;
+ }
+
+ .navbar {
+     border-bottom: 1px solid #f0f0f0;
+ }
+
+ .menu-button {
+     height: 36px;
+     float:left;
+     margin-right: 10px;
+ }
+
+ .divider {
+    width: 1px;
+    background: #f0f0f0;
+    height: 40px;
+    margin-right: 5px;
+ }
+
+ .add-button{
+    background: #e3472f;
+    color: white;
+    height: 40px;
+    width: 40px;
+    padding: 9px 13px;
+    border-radius: 4px 0 0 4px;
+    border-right: 1px solid #cc412c;
+    font-size: 0.8rem;
+    font-weight: bold;
+    float: right;
+ }
+
+ .add-post{
+    background: #e3472f;
+    color: white;
+    height: 40px;
+    width: 100px;
+    padding: 10px 22px;
+    border-radius: 0 4px 4px 0;
+    border-right: #cc412c;
+    font-size: 0.8rem;
+    font-weight: bold;
+    float: right;
+ }
+
+ .user-pic{
+    float:right;
+    margin-left: 10px;
+ }

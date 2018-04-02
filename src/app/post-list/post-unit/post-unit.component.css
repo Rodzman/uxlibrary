@@ -1,0 +1,89 @@
+.upvote-box{
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 35px;
+}
+
+.upvote-arrow{
+    border-bottom: 1px solid #ccc;
+    color: #e3472f;
+    height: 28px;
+}
+
+.upvote{
+    font-weight: bold;
+    height: 28px;
+}
+
+.upvote-col{
+    width: 80px;
+    padding: 2px 20px;
+}
+
+.upvote-row{
+    margin-bottom: 30px;
+}
+
+.post-url{
+    color: #ccc;
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.post-title{
+    margin-top: -5px;
+    margin-bottom: 0px;
+}
+
+.post-info{
+    font-size: 0.8rem;
+    color: #999;
+}
+
+.post-category{
+    margin-right: 10px;
+    border-radius: 10px;
+    background: mediumaquamarine;
+    color: white;
+    padding: 2px 10px 4px;
+    font-size: 0.6rem;
+    text-transform: capitalize;
+}
+
+.author-img{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.post-author{
+    color: #e3472f;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.post-comments{
+    color: #e3472f;
+    margin: 0 10px;
+    font-size: 0.7rem;
+}
+
+.post-date{
+    margin-left: 10px;
+}
+
+.ux_ui {
+    background: #00bbff;
+}
+
+.product_design {
+    background: #00e2ad;
+}
+
+.case_study {
+    background: #f4973c;
+}
+
+.discussion {
+    background: #4271d6;
+}

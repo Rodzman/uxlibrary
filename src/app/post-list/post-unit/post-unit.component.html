@@ -1,0 +1,24 @@
+<div class="row upvote-row">
+  <div class="upvote-col text-center">
+    <div class="upvote-box">
+      <div class="upvote-arrow">
+        <i class="fa fa-chevron-up"></i>
+      </div>
+      <div class="upvote">
+        {{link.upvotes}}
+      </div>
+    </div>
+  </div>
+  <div class="text-left">
+    <div class="post-url">{{link.meta.url}}</div>
+    <h4 class="post-title">{{link.meta.title}}</h4>
+    <div class="post-info">
+      <span class="post-category" [ngClass]="link.category">{{link.category | replace}}</span>|
+      <img class="author-img" src="../assets/img/author.jpg"><span class="post-author">{{link.meta.author}}</span>
+      <span class="circle">●</span>
+      <span class="post-date">{{link.created_at | date: 'HH:mm'}}</span>
+      <span class="circle">●</span>
+      <span class="post-comments"><i class="fa fa-comment"></i>  {{link.comments}} Comments</span>
+    </div>
+  </div>
+</div>

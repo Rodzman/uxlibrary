@@ -1,0 +1,24 @@
+<nav class="navbar navbar-light fixed-top bg-white">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="../assets/img/logo.jpg" alt="">
+    </a>
+    <div class="divider"></div>
+    <div class="col-sm">
+      <button class="navbar-toggler menu-button" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <form [formGroup]="searchForm" style="float:left;">
+        <div class="input-group">
+          <span class="input-group-addon transparent"><span class="fa fa-search"></span></span>
+          <input class="form-control left-border-none" type="text" #iptSearch formControlName="searchControl">
+        </div>
+      </form>
+    </div>
+    <div class="col-sm text-right">
+      <img class="user-pic" src="../assets/img/user.jpg">
+      <div class="add-post">Add Post</div>
+      <div class="add-button"><span class="fa fa-plus"></span></div>
+    </div>
+  </div>
+</nav>

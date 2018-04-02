@@ -1,0 +1,17 @@
+.sorters {
+    height: 50px;
+    font-size: 0.9rem;
+    color: #ccc;
+    margin-top: 25px;
+}
+
+.sorters a {
+    color: #e3472f;
+}
+
+.load-box {
+    background-color: #eee;
+    padding: 12px;
+    color: #e3472f;
+    font-size: 0.8rem;
+}
